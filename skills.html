@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneha's -Skills</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<style>
+* {
+    margin: 1px;
+    padding: 1px;
+}
+body {
+    background-color: rgb(189, 186, 186);
+    color: black;
+    font-family: "EB Garamond", serif;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.block > div{
+    width: 30%;
+}
+.firstdiv{
+    width: 200px;
+  height: 180px; 
+  box-shadow: 2px 2px 10px black;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border-radius: 7px;
+  padding: 0;
+}
+.firstdiv p{
+    font-size: 2.5rem;
+    margin: 2px;
+    font-weight: bold;
+    filter: drop-shadow(0.1px 0.2px 1px black);
+    font-family: "Dancing Script", cursive;
+    padding-left: 20px;
+}
+.firstdiv ul li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    padding-left: 20px;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="left" title="Web Developer"><b>Sneha Vadla</b></div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="skills.html" class="active">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="block">
+        <div class="firstdiv"><p>Languages</p>
+            <div class="fir">
+                <ul>
+                    <li>Java programming</li>
+                    <li>C Programming</li>
+                    <li>Basics In Python</li>
+                    <li>DSA</li>
+                </ul>
+            </div>
+        </div>
+        <div class="firstdiv"><p>Web Technologies</p>
+            <div class="sec">
+                <ul>
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                    <li>react</li>
+                </ul>
+            </div>
+        </div>
+        <div class="firstdiv"><p>Tools</p>
+            <div class="third">
+                <ul>
+                    <li>VS Code</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+        </div>
+        <div class="firstdiv"><p>Additional</p> 
+            <div class="four">
+                <ul>
+                    <li>Quick Learner</li>
+                    <li>Workaholic</li>
+                    <li>Logic Builder</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
